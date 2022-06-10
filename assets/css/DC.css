@@ -129,16 +129,16 @@ ul.list2 {
 .mailing p { 
     margin: 0;
     text-align: center;
-    margin-bottom: 3px;
+    margin-bottom: 6px;
 }
 
 .mail-form {
    font: 18px/18px "high tower";
    background-color: #e9e8e8; 
    width: 210px;
-   padding: 4px 15px 15px;
+   padding: 1px 15px 15px;
    color: #4b4b4b;
-   margin: 0 83px;
+   margin: 1px 83px 0 83px;
 }
 
 .mail-form input {
@@ -149,6 +149,7 @@ border: none;
 box-shadow: inset 2px 2px 5px -1px rgba(0, 1, 1, 0.23);
 padding:5px 0px 5px 10px;
 text-align: center;
+height: 20px;
 }
 
 .text2 a  {
@@ -170,7 +171,7 @@ text-decoration: none;
 .text2 {
     font: 36px/33px "high tower";
     text-align-last: center;
-    margin-top: 10px;
+    margin-top: 12px;
     margin-bottom: 0px;
 }
 
