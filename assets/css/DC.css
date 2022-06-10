@@ -288,19 +288,24 @@ margin-top: 8px;
 
 .collection {
     margin-top: 50px;
+    text-align: center;
 }
 
 .collection-header {
-    font: 60px/24px "high tower";
+    font: 60px/60px "high tower";
     color: rgb(75,75,75);
     text-align-last: center;
-    margin-top: 25px;
+    margin-top: 7px;
     margin-bottom: 0;
 }
 
-.LIL {
+.collection img {
+    margin: 28px 19px 32px;
+}
+
+/* .LIL {
     margin-left: 37px;
-    margin-top: 43px;
+    margin-top: 27px;
     margin-bottom: 33px;
 }
 
@@ -312,7 +317,7 @@ margin-top: 8px;
 .LIR {
     margin-left: 38px;
     margin-bottom: 33px;
-}
+} */
 
 .image img {display: block;}
 
