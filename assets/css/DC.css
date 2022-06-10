@@ -160,9 +160,15 @@ text-decoration: none;
 .text2 a:hover {
         color: rgb(158, 158, 158);
 }
-.text1 a:hover {
+
+.shipping a:hover{
+    color: rgb(158, 158, 158);}
+
+.visit a:hover{
+    color: rgb(158, 158, 158);}
+/* .text1 a:hover {
     color: rgb(158, 158, 158);
-}
+} */
 
 .shipping {
     float: right;
