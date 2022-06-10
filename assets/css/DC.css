@@ -60,13 +60,22 @@ a:hover {
 
 .list {
     font: 14px/22px "high tower";
-    margin-top: 16px;
+    float:right
 }
 
 .list ul{
     float: right;
     margin: 0;
     padding: 0;
+    clear:right;
+}
+
+ul.list1 {
+    margin-top: 16px;
+}
+
+ul.list2 {
+    margin-top: 10px;
 }
 
 .list1 li{
@@ -80,7 +89,6 @@ a:hover {
     clear: right;
     float: left;
     margin-left: 28px;
-    margin-top: 10px;
 }
 
 /* 02. Slider section*/
