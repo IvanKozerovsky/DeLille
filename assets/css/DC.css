@@ -148,7 +148,7 @@ margin-top: 4px;
 border: none;
 box-shadow: inset 2px 2px 5px -1px rgba(0, 1, 1, 0.23);
 padding:5px 0px 5px 10px;
-text-align: center;
+/* text-align: center; */
 height: 20px;
 }
 
@@ -248,7 +248,7 @@ margin-top: 8px;
 
 .product-buy-qty input {
     margin-bottom: 8px;
-    width: 40px;
+    width: 50px;
     height: 20px;
     margin-top: 4px;
     border: none;
