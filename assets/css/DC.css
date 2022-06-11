@@ -330,3 +330,109 @@ margin-top: 8px;
     height: 210px; 
     width: 100% ;
 }
+
+
+.footer_about-us {
+     float: left;
+    }
+.footer_about-us p{
+    margin: 6px 0px -4px 0px;
+}
+.footer_get-in-touch {
+    float: left;
+    margin-left: 153px;
+}
+.footer_online {
+    float: right;
+    padding-right: 3px;
+}
+
+.footer_info-block div {
+    width: 205px;
+}
+.footer-text a{
+    font-family: "neutra";
+    color: rgb(254, 251, 251);
+}
+.footer-text h4{
+    font: 18px "neutra";
+    color: rgb(254, 251, 251);
+    margin: 27px 0 0 0;
+}
+.footer-text p{
+    font: 14px "neutra";
+    color: rgb(254, 251, 251);
+}
+.footer-text a{
+    font: 14px "neutra";
+    color: rgb(254, 251, 251);
+}
+.footer-text hr {
+    margin: 1px 0 0 0;
+    height: 1px;
+    /* border: 1px 0px 0px 0px ; */
+    border-top: rgb(45, 45, 45);
+    border-left: rgb(45, 45, 45);
+    border-right: rgb(45, 45, 45);
+    color: rgb(254, 251, 251);
+}
+.email-block_get-in-touch_footer img {
+    margin: 11px 0 0 2px;
+}
+
+.footer_online p{
+    margin: 18px 0 0 1px;
+}
+
+.footer_online img{
+    margin:0px 17px 0px 0px;
+}
+
+.footer_info-block a:hover{
+    color: rgb(158, 158, 158);
+transition-duration: 0.5s;}
+
+#mail-icon {
+    position: relative;
+}
+#mail-adress {
+    position: absolute;
+    margin: 15px 0px 0px 18px;
+}
+#phone {
+    position: relative;
+    margin: 2px 0 0 14px;
+}
+#phone-number {
+position: absolute;
+margin: 12px 0 0 35px;
+}
+
+/* 
+footer в таблице
+
+.footer_info-block {
+    padding: 25px 0 0 0;
+}
+
+.footer_about-us {
+/* padding: 25px 0 0 0; */
+/* float: left;
+} */
+
+/* .footer_get-in-touch {
+    /* padding: 25px 0 0 0; */
+    /* float: left;
+    }
+
+.footer_online {
+    float: right;
+}
+
+.footer_info-block th{ */
+    /* border-bottom: solid; */
+    /* font-size: 18px;
+} */
+/* .footer_info-block td{
+    font-size: 14px;
+/* } */ 
