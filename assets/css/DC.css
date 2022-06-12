@@ -331,7 +331,6 @@ margin-top: 8px;
     width: 100% ;
 }
 
-
 .footer_about-us {
      float: left;
     }
@@ -364,7 +363,7 @@ margin-top: 8px;
     color: rgb(254, 251, 251);
 }
 .footer-text a{
-    font: 14px "neutra";
+    /* font: 14px "neutra"; */
     color: rgb(254, 251, 251);
 }
 .footer-text hr {
@@ -392,7 +391,7 @@ margin-top: 8px;
     color: rgb(158, 158, 158);
 transition-duration: 0.5s;}
 
-#mail-icon {
+/* #mail-icon {
     position: relative;
 }
 #mail-adress {
@@ -406,7 +405,93 @@ transition-duration: 0.5s;}
 #phone-number {
 position: absolute;
 margin: 12px 0 0 35px;
+} */
+
+/* меняющиеся картинки */
+.email-block_get-in-touch_footer {
+    float: left;
+    margin: -3px 0 0 0;
 }
+
+.email-block_get-in-touch_footer a{
+    /* background-repeat: no-repeat; */
+    /* display: block;  */
+    float: left;
+    /* margin-right: 20px; */
+}
+a#mail-icon {
+    background: url(../img/mail.png); 
+    width: 45px; 
+    height: 34px;
+   }
+   a#mail-icon:hover {
+    background: url(../img/mail-grey.png); 
+   }
+
+   #phone {
+       clear: left;
+       margin: 6px 0px 0px 14px;
+   }
+   #mail-adress {
+        margin: 5px 0px 0px 18px;
+   }
+
+   #phone-number {
+        margin: 18px 0px 0px 35px;
+   }
+
+   a#phone {
+    background: url(../img/phone.png); 
+    width: 15px; 
+    height: 43px;
+   }
+   a#phone:hover {
+    background: url(../img/phone-grey.png); 
+   }
+
+.online-icons a{
+    /* background-repeat: no-repeat; */
+    height: 45px;
+    /* display: block;  */
+    float: left;
+    margin-right: 20px;
+}
+.online-icons a:hover{
+    background-repeat: no-repeat
+}
+
+a.fb1 {
+    background: url(../img/fb.png); 
+    width: 45px; 
+   }
+   a.fb1:hover {
+    background: url(../img/fb-grey.png); 
+   }
+   a.twitter1 {
+    background: url(../img/twitter.png); 
+    width: 45px; 
+   }
+   a.twitter1:hover {
+    background: url(../img/twitter-grey.png); 
+   }
+   a.pin1 {
+    background: url(../img/pin.png); 
+    width: 46px; 
+   }
+   a.pin1:hover {
+    background: url(../img/pin-grey.png); 
+   }
+
+
+/* #fb-grey {
+    position: absolute;
+    margin: 0px 0 0 -193px;
+    z-index: -1;
+}
+#fb:hover  {
+    transition-duration: 0.5s;
+    z-index: 1;
+} */
 
 /* 
 footer в таблице
