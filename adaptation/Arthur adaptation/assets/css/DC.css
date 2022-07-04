@@ -25,7 +25,7 @@ body {
 
 a { color: rgb(48, 48, 48);
     text-decoration: none;
-    transition-duration: 0.5s;}
+    transition: color 0.5s;}
     
 a:hover {  
     text-decoration: none;
@@ -57,7 +57,9 @@ a:hover {
     margin-top: 1px;
     margin-bottom: 4px;
 }
-
+.burger-menu {
+    display: none;
+}
 .list {
     font: 14px/22px "high tower";
     float:right
@@ -389,7 +391,7 @@ margin: 0px 0 0 0;
 
 .footer_info-block a:hover{
     color: rgb(158, 158, 158);
-transition-duration: 0.5s;}
+transition: color 0.5s;}
 
 /* #mail-icon {
     position: relative;
@@ -526,34 +528,132 @@ footer в таблице
     .slider img {
         width: 100%;
     }
-}
-    
-@media (max-width: 768px) {
-    .line {
-        position: relative;
-        background-color: rgb(255, 252, 248);
-    }
     .list {
-        font: 10px/14px "high tower";
-    }
-    .list2 {
-        display: none;
+        padding: 0 10px 0 0;
     }
 }
 
-@media (max-width: 960px) {
+@media (min-width: 769px) and (max-width: 960px) {
     .list {
         font: 12px/18px "high tower";
         padding: 0 10px 0 0;
     }
     .center {
-        width: 100%;
+        width: 768px;
     }
-    
     .list2 li {
     margin-left: 15px;
     }
     .logo {
         width: 50%;
+    }
+    /* --------------------------------------второй блок------------------------------------- */
+    .mail-form {
+        margin: 1px 29px 0 29px;
+        font: 16px/16px "high tower";
+    }
+    .visit-us h2{
+        font: 30px/33px "high tower";
+    }
+    .visit-us img{
+        width: 200px;
+    }
+    .mail-form input {
+        width: 198px;
+        margin-bottom: 0px;
+        margin-top: 1px;
+        padding: 5px 0px 5px 5px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .line {
+        position: relative;
+        background-color: rgb(255, 252, 248);
+    }
+    .burger-menu {
+        display: block;
+        float: right;
+        margin-top: 17px;
+    }
+    .list {
+        display: none;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .center {
+        width: 480px;
+    }
+    .logo {
+        width: 360px;
+    }
+    .burger-menu {
+        margin-top: 17px;
+        padding: 5px;
+    }
+/* --------------------------------------второй блок------------------------------------- */
+    .visit {
+        margin: 0 auto;
+        width: 400px;
+    }
+    .visit-us img {
+        width: 400px;
+    }
+  
+    .visit-us > *:not(:last-child) {
+        margin-bottom: 35px;
+    }
+    .visit-us {
+        display: grid;
+    }
+    .shipping {
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .center {
+        width: 94%;
+    }
+    .line {
+        position: relative;
+        background-color: rgb(255, 252, 248);
+    }
+    .burger-menu {
+        display: block;
+        float: right;
+        margin-top: 8px;
+    }
+    .list {
+        display: none;
+    }
+    .logo {
+        width: 250px;
+    }
+/* --------------------------------------второй блок------------------------------------- */
+
+    /* .visit {
+        margin: 0 auto;
+        width: 400px;
+    } */
+    .visit-us {
+        width: 280px;
+    }
+    .visit-us img {
+        width: 280px;
+    }
+  
+    .visit-us > *:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .mail-form {
+        margin: 1px 25px 0 25px;
+    }
+    .visit-us {
+        margin-top: 20px;
+        padding: 15px 15px 15px;
     }
 }

@@ -118,6 +118,7 @@ body {
     padding: 30px 30px 30px 30px;
     display: flex;
     background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 6.8px 8.7px 24.6px 2.4px rgba(0, 1, 1, 0.45);
 
 }
 .visit-us-block > *:not(:last-child) {
@@ -180,6 +181,82 @@ margin: 0px 0 0 1px;
 .visit-us_2_text {
     margin: 11px 0 0 0;
 }
+/* -----------------------------------------------product-------------------------------------------- */
+
+.product {
+    margin: 50px 0 0 0;
+    display: flex;
+    
+}
+.product_column {
+    flex: 0 1 50%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    box-shadow: 6.8px 8.7px 24.6px 2.4px rgba(0, 1, 1, 0.45);
+}
+.column-1 {
+    margin-right: 20px;
+}
+.column-block_product {
+    background-color: rgb(45, 45, 45);
+    color: #fff;
+}
+.Product_product {
+    font: 24px/30px "high tower";
+    text-align: center;
+}
+.img_product {
+}
+.text_product {
+    font: 14px/24px "neutra";
+    margin: 6px 8px 0 24px;
+}
+.shop_product {
+    display: flex;
+}
+.price_product {
+    flex: 0 1 33.333%;
+    list-style: none;
+    font: 18px/30px "high tower";
+    padding: 0 0 0 23px;
+    margin: 9px 0 0 0;
+}
+.QTY {
+    flex: 0 1 33.333%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: -2px 0 0 0;
+
+}
+.product-seal {
+    flex: 0 1 33.333%;
+}
+.text_QTY {
+    font: 18px/30px "neutra";
+    margin: -1px 10px 0px 15px;
+}
+
+.number_QTY {
+    width: 50px;
+    height: 30px;
+    box-shadow: inset 1px 1.7px 5px 0 rgba(0, 1, 1, 0.23);
+}
+.button_QTY {
+    background-color: rgb(45, 45, 45);
+    border: none;
+    color: #fff;
+    font: 18px/30px "neutra";
+    margin: 21px 0 0 0px;
+}
+.column-2 {
+}
+
+.price_product > *:not(:first-child) {
+    margin: -5px 0 0 0;
+    }
+
 
 /* ----------------------------------------------подвал----------------------------------------- */
 .footer {
