@@ -531,6 +531,11 @@ footer в таблице
     .list {
         padding: 0 10px 0 0;
     }
+    /* -------------------------------------------------------body-------------------------------------------------------------------- */
+body {
+    background-size: 80%, 80%, 100%;
+    background-position: -150px 10px, right -66px bottom 70px,center;
+}
 }
 
 @media (min-width: 769px) and (max-width: 960px) {
@@ -606,6 +611,34 @@ footer в таблице
         margin-right: 0px;
         margin-bottom: 9px;
     }
+
+    /* -------------------------------------------------footer------------------------------------------------------------------- */
+    .footer_info-block div {
+        width: 180px;
+    }
+    .footer_online {
+        margin-right: 10px;
+    }
+    .footer_about-us {
+        margin-left: 10px;
+    }
+    .footer_get-in-touch {
+        margin-left: 103px;
+    }
+    .online-icons a {
+        margin-right: 14px;
+    }
+    .footer-text a {
+        font: 18px/24px "neutra";
+    }
+    .email-block_get-in-touch_footer a {
+        line-height: 46px;
+    }
+    /* -------------------------------------------------------body-------------------------------------------------------------------- */
+body {
+    background-position: -88px 160px, right -66px bottom 70px,center;
+    background-size: 70%, 70%, 100%;
+}
 }
 
 
@@ -664,6 +697,45 @@ footer в таблице
     .product-image {
         width: 440px;
     }
+
+    /* -------------------------------------------------footer------------------------------------------------------------------- */
+    .footer_info-block div {
+        width: 220px;
+    }
+    .footer_online {
+        margin: 15px auto;
+        clear: left;
+        float: none;
+        width: 480px;
+    }
+
+    .footer_online h4{
+        margin: 175px 0px 0px 0px;
+
+    }
+    .footer_about-us {
+        margin-left: 3px;
+    }
+    .footer_get-in-touch {
+        margin-left: 30px;
+    }
+    .online-icons a {
+        margin-right: 14px;
+    }
+    .footer-text a {
+        font: 17px/26px "neutra";
+    }
+    .email-block_get-in-touch_footer a {
+        line-height: 46px;
+    }
+    .footer-text h4 {
+        margin: 6px 0 0 0;
+    }
+/* -------------------------------------------------------body-------------------------------------------------------------------- */
+body {
+    background-position: -88px 285px, right -66px bottom 208px,center;
+    background-size: 70%, 70%, 100%;
+}
 }
 
 
@@ -758,5 +830,74 @@ footer в таблице
         margin-right: 0px;
         margin-bottom: 9px;
     }
+/* --------------------------------------четвёртый блок------------------------------------- */
 
-} 
+    .collection {
+        width: 320px;
+    } 
+    .collection-header {
+        font: 34px/34px "high tower";
+        margin-top: 10px;
+    }
+    .collection img {
+        margin: 8px 19px 8px;
+    }
+
+    /* -------------------------------------------------footer------------------------------------------------------------------- */
+    .footer_info-block div {
+        width: 220px;
+    }
+    .footer_online {
+        margin: 15px auto;
+        clear: left;
+        float: left;
+    }
+
+    .footer_about-us {
+        margin-left: 3px;
+    }
+    .footer_get-in-touch {
+        margin: 15px 0px 0px 0px;
+        clear: left;
+    }
+    .online-icons a {
+        margin-right: 14px;
+    }
+    .footer-text a {
+        font: 17px/26px "neutra";
+    }
+    .email-block_get-in-touch_footer a {
+        line-height: 46px;
+    }
+    .footer-text h4 {
+        margin: 6px 0 0 0;
+    }
+    .ground {
+        padding-bottom: 0px;
+    }
+
+    
+.footer_about-us ul {
+    display: none;
+}
+.footer_about-us:hover ul {
+    display: block;
+}
+.email-block_get-in-touch_footer {
+    display: none;
+}
+.footer_get-in-touch:hover div {
+    display: block;
+}
+.online-icons {
+    display: none;
+}
+.footer_online:hover div {
+    display: block;
+}
+/* -------------------------------------------------------body-------------------------------------------------------------------- */
+body {
+    background-position: -88px 179px, right -66px bottom 99px,center;
+    background-size: 70%, 70%, 100%;
+}
+}
