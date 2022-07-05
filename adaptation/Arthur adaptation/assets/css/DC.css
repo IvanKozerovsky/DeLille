@@ -564,6 +564,48 @@ footer в таблице
         margin-top: 1px;
         padding: 5px 0px 5px 5px;
     }
+       /* --------------------------------------третий блок------------------------------------- */
+
+    .product {
+        width: 380px;
+    }
+    .product-image {
+        width: 340px;
+    }
+    .product-text {
+        font: 14px/22px "neutra";
+        margin: 8px 13px;
+    }
+    .products h3 {
+        font: 20px/22px "high tower";
+        padding: 10px 0;
+    }
+    .product-buy {
+        font: 16px/18px "high tower";
+    }
+    .product-buy-table {
+        margin-left: 12px;
+        margin-top: 2px;
+    }
+    .product-buy-qty {
+        font: 16px/24px "neutra";
+        margin-top: 2px;
+        margin-left: 35px;
+    }
+    .product-buy-qty input {
+        margin-bottom: 0px;
+        width: 38px;
+        height: 16px;
+        margin-top: 4px;
+        padding: 4px 0;
+    }
+    .product-buy-seal {
+        width: 70px;
+        float: left;
+        margin-left: 35px;
+        margin-right: 0px;
+        margin-bottom: 9px;
+    }
 }
 
 
@@ -611,6 +653,11 @@ footer в таблице
     .shipping {
         margin: 0 auto;
     }
+    /* --------------------------------------третий блок------------------------------------- */
+    .products {
+        display: grid;
+        justify-content: center;
+    }
 }
 
 
@@ -655,5 +702,50 @@ footer в таблице
     .visit-us {
         margin-top: 20px;
         padding: 15px 15px 15px;
+    }
+/* --------------------------------------третий блок------------------------------------- */
+    .product {
+        width: 320px;
+        /* менял */
+    }
+    .product-image {
+        width: 280px;
+        /* менял */
+    }
+    .product-text {
+        font: 14px/22px "neutra";
+        margin: 8px 13px;
+    }
+    .products h3 {
+        font: 20px/22px "high tower";
+        padding: 10px 0;
+    }
+    .product-buy {
+        font: 16px/18px "high tower";
+    }
+    .product-buy-table {
+        margin-left: 12px;
+        margin-top: 2px;
+    }
+    .product-buy-qty {
+        font: 16px/24px "neutra";
+        margin-top: 2px;
+        margin-left: 10px; 
+        /* менял лефт */
+    }
+    .product-buy-qty input {
+        margin-bottom: 0px;
+        width: 38px;
+        height: 16px;
+        margin-top: 4px;
+        padding: 4px 0;
+    }
+    .product-buy-seal {
+        width: 70px;
+        float: left;
+        margin-left: 14px;
+        /* менял марджин лефт */
+        margin-right: 0px;
+        margin-bottom: 9px;
     }
 }
