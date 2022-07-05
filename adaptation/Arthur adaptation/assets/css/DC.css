@@ -658,6 +658,12 @@ footer в таблице
         display: grid;
         justify-content: center;
     }
+    .product {
+        width: 480px;
+    }
+    .product-image {
+        width: 440px;
+    }
 }
 
 
@@ -687,10 +693,10 @@ footer в таблице
         width: 400px;
     } */
     .visit-us {
-        width: 280px;
+        width: 320px;
     }
     .visit-us img {
-        width: 280px;
+        width: 290px;
     }
   
     .visit-us > *:not(:last-child) {
@@ -704,6 +710,10 @@ footer в таблице
         padding: 15px 15px 15px;
     }
 /* --------------------------------------третий блок------------------------------------- */
+    
+    .products {
+        width: 320px; 
+    }
     .product {
         width: 320px;
         /* менял */
@@ -748,4 +758,5 @@ footer в таблице
         margin-right: 0px;
         margin-bottom: 9px;
     }
-}
+
+} 
