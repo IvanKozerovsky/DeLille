@@ -454,7 +454,9 @@ margin: 12px 0 0 35px;
 .online-icons a:hover{
     background-repeat: no-repeat
 }
-
+.keep-online_icons a {
+    height: 46px;
+}
 a.fb1 {
     background: url(../img/fb.png); 
     width: 45px; 
