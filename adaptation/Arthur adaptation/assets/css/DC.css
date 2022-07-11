@@ -129,9 +129,9 @@ ul.list2 {
 }
 
 .mailing p { 
-    margin: 0;
+    margin: 2px;
     text-align: center;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
 }
 
 .mail-form {
@@ -179,7 +179,7 @@ text-decoration: none;
 .text2 {
     font: 36px/33px "high tower";
     text-align-last: center;
-    margin-top: 12px;
+    margin-top: 11px;
     margin-bottom: 0px;
 }
 
@@ -673,10 +673,10 @@ body {
 /* --------------------------------------второй блок------------------------------------- */
     .visit {
         margin: 0 auto;
-        width: 400px;
+        width: 242px;
     }
     .visit-us img {
-        width: 400px;
+        width: 242px;
     }
   
     .visit-us > *:not(:last-child) {
@@ -698,6 +698,15 @@ body {
     }
     .product-image {
         width: 440px;
+    }
+
+    /* --------------------------------------четвёртый блок------------------------------------- */
+
+    .collection-header {
+        padding: 0 5px;
+    }
+    .collection img {
+        margin: 10px 19px 10px;
     }
 
     /* -------------------------------------------------footer------------------------------------------------------------------- */
@@ -793,11 +802,9 @@ body {
         margin: 0 auto;
         width: 400px;
     } */
-    .visit-us {
-        width: 320px;
-    }
+
     .visit-us img {
-        width: 290px;
+        width: 242px;
     }
   
     .visit-us > *:not(:last-child) {
@@ -809,18 +816,35 @@ body {
     .visit-us {
         margin-top: 20px;
         padding: 15px 15px 15px;
+        width: 94%;
     }
+    .visit {
+        margin: 0 auto 30px auto;
+        display: table;
+        float: none;
+    }
+    .mailing {
+        margin: 0 auto 30px auto;
+        display: table;
+        float: none;
+    }
+    .shipping {
+        margin: 0 auto;
+        display: table;
+        float: none;
+    }
+
 /* --------------------------------------третий блок------------------------------------- */
     
     .products {
-        width: 320px; 
+        width: 94%; 
     }
     .product {
-        width: 320px;
+        width: 100%;
         /* менял */
     }
     .product-image {
-        width: 280px;
+        width: 100%;
         /* менял */
     }
     .product-text {
@@ -841,7 +865,7 @@ body {
     .product-buy-qty {
         font: 16px/24px "neutra";
         margin-top: 2px;
-        margin-left: 10px; 
+        margin-left: 5px; 
         /* менял лефт */
     }
     .product-buy-qty input {
@@ -853,8 +877,8 @@ body {
     }
     .product-buy-seal {
         width: 70px;
-        float: left;
-        margin-left: 14px;
+        float: right;
+        margin-left: 5px;
         /* менял марджин лефт */
         margin-right: 0px;
         margin-bottom: 9px;
@@ -862,7 +886,7 @@ body {
 /* --------------------------------------четвёртый блок------------------------------------- */
 
     .collection {
-        width: 320px;
+        width: 94%;
     } 
     .collection-header {
         font: 34px/34px "high tower";
@@ -906,21 +930,21 @@ body {
     }
 
     
-.footer_about-us ul {
+/* .footer_about-us ul {
     display: none;
-}
+} */
 .footer_about-us:hover ul {
     display: block;
 }
-.email-block_get-in-touch_footer {
+/* .email-block_get-in-touch_footer {
     display: none;
-}
+} */
 .footer_get-in-touch:hover div {
     display: block;
 }
-.online-icons {
+/* .online-icons {
     display: none;
-}
+} */
 .footer_online:hover div {
     display: block;
 }
@@ -957,4 +981,23 @@ body {
 .burger_list2 li{
     margin: 0px 10px 10px 0px;
 }
+}
+
+/* -------------------------------------------------------product-buy-------------------------------------------------------------------- */
+@media (min-width: 401px) and (max-width: 480px) {
+
+    .product-buy-qty {
+        margin-left: 17%;
+    }
+}
+
+@media (min-width: 360px) and (max-width: 400px) {
+    .product-buy-qty {
+        margin-left: 8%;
+    }
+}
+@media (min-width: 330px) and (max-width: 359px) {
+    .product-buy-qty {
+        margin-left: 4%;
+    }
 }
